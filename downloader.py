@@ -9,6 +9,13 @@ def download_public_repositories(username):
 
     if response.status_code == 200:
         repositories = response.json()
+        
+        # Create a directory with the username if it doesn't exist
+        if not os.path.exists(username):
+            os.makedirs(username)
+
+        os.chdir(username)  # Change to the directory for saving repositories
+        
         for repo in repositories:
             repo_name = repo['name']
             repo_url = repo['html_url']

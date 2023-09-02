@@ -9,6 +9,12 @@ Before you can use this script, make sure you have the following installed:
 - Python 3.x
 - Git (for cloning repositories)
 
+You can install the required Python packages using the following command:
+
+```bash
+pip install requests argparse
+```
+
 ## Usage
 
 1. **Clone or download this repository**

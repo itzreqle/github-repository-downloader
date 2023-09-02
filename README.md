@@ -25,7 +25,7 @@ pip install requests argparse
     git clone https://github.com/itzreqle/github-repository-downloader.git
     ```
     
-- **Navigate to the script's directory**
+2. **Navigate to the script's directory**
     
     Change your current directory to the one where you cloned or downloaded the script.
     
@@ -33,7 +33,7 @@ pip install requests argparse
     cd github-repository-downloader
     ```
     
-2. **Run the script**
+3. **Run the script**
     
     Run the Python script by providing your GitHub username as a command-line argument:
     
@@ -41,11 +41,11 @@ pip install requests argparse
     python downloader.py your_username
     ```
     
-3. **Wait for the script to complete**
+4. **Wait for the script to complete**
     
     The script will fetch your public repositories from GitHub and clone each one to your local machine. You'll see progress messages indicating which repositories are being cloned.
     
-4. **Access your repositories**
+5. **Access your repositories**
     
     Once the script has finished running, you'll find all your public repositories inside a directory named after your GitHub username in the current directory.
 

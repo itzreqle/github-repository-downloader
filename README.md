@@ -47,8 +47,11 @@ pip install requests argparse
     
 4. **Access your repositories**
     
-    Once the script has finished running, you'll find all your public repositories in your current directory.
-    
+    Once the script has finished running, you'll find all your public repositories inside a directory named after your GitHub username in the current directory.
+
+   ```bash
+   cd your_username
+   ```
 
 ## Note
 

@@ -32,10 +32,8 @@ Before you can use this script, make sure you have the following installed:
 1. Run the Python script by providing your GitHub username as a command-line argument:
     
     ```bash
-    python script_name.py your_username`
+    python downloader.py your_username`
     ```
-    
-    Replace `'script_name.py'` with the name of the Python script you downloaded.
     
 2. **Wait for the script to complete**
     

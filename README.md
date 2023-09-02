@@ -24,22 +24,22 @@ Before you can use this script, make sure you have the following installed:
     Change your current directory to the one where you cloned or downloaded the script.
     
     ```bash
-    cd github-repository-downloader`
+    cd github-repository-downloader
     ```
     
-- **Run the script**
+2. **Run the script**
     
-1. Run the Python script by providing your GitHub username as a command-line argument:
+- Run the Python script by providing your GitHub username as a command-line argument:
     
     ```bash
-    python downloader.py your_username`
+    python downloader.py your_username
     ```
     
-2. **Wait for the script to complete**
+3. **Wait for the script to complete**
     
     The script will fetch your public repositories from GitHub and clone each one to your local machine. You'll see progress messages indicating which repositories are being cloned.
     
-3. **Access your repositories**
+4. **Access your repositories**
     
     Once the script has finished running, you'll find all your public repositories in your current directory.
     

@@ -29,7 +29,7 @@ Before you can use this script, make sure you have the following installed:
     
 2. **Run the script**
     
-- Run the Python script by providing your GitHub username as a command-line argument:
+    Run the Python script by providing your GitHub username as a command-line argument:
     
     ```bash
     python downloader.py your_username
